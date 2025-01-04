@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    height: 100px;
+    border: 2px solid black;
+    clear: both;
+}
+section{
+    height: 300px;
+    width: 33.333%;
+    float: left;
+    border: 2px solid black;
+}
+.bigBottom{
+   height: 300px;
+   width: 50%;
+   border: 2px solid black;
+   float: left;
+}
+
+/* will take effect when screen size is less than 800px */
+@media screen and (max-width: 800px) {
+section {
+background: blue;
+}
+}
